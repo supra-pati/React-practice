@@ -1,0 +1,45 @@
+/* *{
+    box-sizing: border-box;
+} */
+
+body{
+    margin: 0;
+}
+.nav{
+    background-color: rgb(255, 43, 128);
+    color: rgb(18, 17, 17);
+    display: flow-root;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    /* padding: ; */
+    /* align-content: space-evenly;  
+    justify-items: stretch; */
+
+
+}
+
+.nav a{
+    color: inherit;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* .links{
+    justify-content: space-between;
+    background-color: rgb(249, 113, 151);
+    color: rgb(254, 254, 254);
+    display: inline-flexbox;
+}
+
+.links a{
+    color: inherit;
+} */

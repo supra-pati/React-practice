@@ -1,0 +1,10 @@
+.p-style {
+  list-style-type: none;
+}
+.li-style {
+  display: inline-block;
+  padding: 15px;
+}
+.link-style {
+  text-decoration: none;
+}
