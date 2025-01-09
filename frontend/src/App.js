@@ -27,15 +27,29 @@
 // export default App;
 
 import React from "react";
-import ProductList from "./components/ProductList";
-import Cart from "./components/Cart";
+import Product from "./components/ecomm/Product";
+import Cart from "./components/ecomm/Cart";
 
+/*
 const App = () => (
   <div>
-    <h1>Shopping Cart with Redux Toolkit</h1>
-    {/* <ProductList />
-        <Cart /> */}
+    <h1>Form mgnt with Redux Toolkit</h1>
+    <Form />
   </div>
 );
+
+export default App;
+*/
+
+const App = () => {
+  return (
+    <div className="App">
+      <h1>My E-commerce Store</h1>
+      <Product id="p1" name="Product 1" price={29.99} />
+      <Product id="p2" name="Product 2" price={49.99} />
+      <Cart />
+    </div>
+  );
+};
 
 export default App;
